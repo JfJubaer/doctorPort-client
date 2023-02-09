@@ -41,13 +41,13 @@ const BookingModal = ({ treatment, setTreatment, selectedDate, refetch }) => {
                 else {
                     toast.error(data.message)
                 }
-            })
 
-        // TODO: send data to the server
-        // and once data is saved then close the modal 
-        // and display success toast
-        console.log(booking);
-        setTreatment(null);
+                // TODO: send data to the server
+                // and once data is saved then close the modal 
+                // and display success toast
+                console.log(booking);
+                setTreatment(null);
+            })
     }
 
     return (
